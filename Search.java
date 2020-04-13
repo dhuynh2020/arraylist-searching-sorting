@@ -52,12 +52,12 @@ public class Search{
         } else { 
             System.out.println("The position of the needle was found in " + value);
         }
-        // int value = search(haystack, needle);
-        // if(value == -1){
-        //     System.out.println("Search value was not found");
-        // } else { 
-        //     System.out.println("The Position of the needle was " + value);
-        // }
+        int value2 = search(haystack, needle);
+        if(value2 == -1){
+            System.out.println("Search value was not found");
+        } else { 
+            System.out.println("The Position of the needle was " + value);
+        }
         
     }
 }

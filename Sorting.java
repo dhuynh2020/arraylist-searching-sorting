@@ -50,24 +50,6 @@ public class Sorting{
                 list.set(j+1, key);
             }
         }
-        
-        // for(int i = 1; i < list.size(); i++){
-        //     for(int j = i - 1; j < i; j++){
-        //         if(list.get(j).compareTo(list.get(i)) > 0){
-        //             String temp = list.get(i);
-        //             list.set(i, list.get(j));
-        //             list.set(j, temp);
-
-        //         }
-        //     }
-            // while(j >= 0 && list.get(j + 1).compareTo(list.get(j)) < 0){
-            //     String temp = current; 
-            //     swap= list.get(j);
-            //     list.set(j+ 1, swap);
-            //     list.set(j, temp);
-            //     j--; 
-            // }
-        
     }
 
     public static void bubbleSort(ArrayList <String> list){
