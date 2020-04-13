@@ -36,7 +36,7 @@
     3. If the list of fruits had been 1000 items long instead, how would your answer to question ii change?
   
 **Implement the two search algorithms**
-
+    
 ## Sorting
 
 ### Sorting Algorithms
