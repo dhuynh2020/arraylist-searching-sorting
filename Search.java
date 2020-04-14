@@ -30,7 +30,7 @@ public class Search{
         if (haystack.get(mid).compareTo(needle) > 0) {
             return binarySearch(haystack, needle, 1, -1);
         } else if (haystack.get(mid).compareTo(needle) < 0) {
-            return binarySearch(haystack, needle, mid + 1, right);
+            return binarySearch(haystack, needle, mid + 1, right + 1 );
         }
         return -1;
     }
@@ -41,10 +41,12 @@ public class Search{
         haystack.add("2");
         haystack.add("3");
         haystack.add("4");
-        String needle = "1";
+        haystack.add("5");
+        haystack.add("6");
+        String needle = "4";
         int left = 0;
         int right = haystack.size(); 
-
+        
 
         int value = binarySearch(haystack, needle, left, right);
         if( value == -1){
